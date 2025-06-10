@@ -114,3 +114,6 @@ def test_relu():
     y = sum(relu(x))
 
     assert y == 3
+    
+if __name__ == '__main__':
+    test_inference()
